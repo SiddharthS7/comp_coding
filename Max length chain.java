@@ -1,6 +1,8 @@
 //https://practice.geeksforgeeks.org/problems/max-length-chain/1
 
-int maxChainLength(Pair arr[], int n)
+class GfG
+{
+    int maxChainLength(Pair arr[], int n)
     {
        // your code here
        Arrays.sort(arr, (a,b) -> a.y - b.y);
@@ -14,3 +16,4 @@ int maxChainLength(Pair arr[], int n)
        }
        return c;
     }
+}
