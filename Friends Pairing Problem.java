@@ -1,3 +1,4 @@
+//https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1
 class Solution
 {
     public long countFriendsPairings(int n) 
